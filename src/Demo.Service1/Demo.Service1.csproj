@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Demo_Common\src\Demo.Common\Demo.Common.csproj" />
+  </ItemGroup>
+
 </Project>
