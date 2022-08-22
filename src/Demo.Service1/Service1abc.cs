@@ -11,7 +11,8 @@ namespace Demo.Service1
 
         public string DoSomeWork()
         {
-            return $"This is what is the the property 'ValuePassedIn': ${ValuePassedIn}";
+            var sReturn = $"This is what is the the property 'ValuePassedIn': ${ValuePassedIn}";
+            return sReturn;
         }
     }
 }

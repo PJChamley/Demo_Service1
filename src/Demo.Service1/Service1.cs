@@ -4,7 +4,7 @@ namespace Demo.Service1
 {
     public class Service1 : IService
     {
-        public string ValuePassedIn { get ; set ; }
+        public string ValuePassedIn { get; set; }
 
         public string DoSomeWork()
         {
