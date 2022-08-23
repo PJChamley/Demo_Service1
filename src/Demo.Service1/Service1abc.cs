@@ -11,8 +11,11 @@ namespace Demo.Service1
 
         public string DoSomeWork()
         {
-            var sReturn = $"This is what is the the property 'ValuePassedIn': ${ValuePassedIn}";
-            return sReturn;
+            return DemoStringText.CombineStrings("This is what is the the property 'ValuePassedIn':", ValuePassedIn);
+        }
+        public string DoSomeMoreWork()
+        {
+            return DemoStringText.CombineStrings("This is what is the the property 'ValuePassedIn':", ValuePassedIn,"More Text here");
         }
     }
 }
