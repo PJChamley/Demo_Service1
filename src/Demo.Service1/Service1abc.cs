@@ -17,5 +17,9 @@ namespace Demo.Service1
         {
             return DemoStringText.CombineStrings("This is what is the the property 'ValuePassedIn':", ValuePassedIn,"More Text here");
         }
+        public string FakeMethodHere()
+        {
+            return "Fake Method - Service 1 - Service-ABC";
+        }
     }
 }

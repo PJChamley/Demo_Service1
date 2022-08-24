@@ -10,5 +10,9 @@ namespace Demo.Service1
         {
             return $"This is what is the the property 'ValuePassedIn': ${ValuePassedIn}";
         }
+        public string FakeMethodHere()
+        {
+            return "Fake Method - Service 1";
+        }
     }
 }
